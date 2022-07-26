@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
 
 // styles
+import './style/Variables.css';
 import './style/App.css';
 
 // modules

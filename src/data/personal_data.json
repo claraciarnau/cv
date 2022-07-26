@@ -1,0 +1,93 @@
+{
+    "firstName": "Clara - Maria",
+    "lastName": "Ciarnău",
+    "birthday": "21-01-1996",
+    "age": 26,
+    "gender": "F",
+
+    "city": "București",
+    "country": "România",
+    "phoneNumber": "0726487075",
+    "email": "ciarnau.clara@gmail.com",
+
+    "studies" : [
+        {
+            "name" : "Facultatea de Automatică și Calculatoare",
+            "timePeriod" : {
+                "start" : "octombrie 2015",
+                "end" : "prezent"
+            },
+            "degree" : "studii de licență",
+            "city" : "București",
+            "specialization" : "Calculatoare și tehnologia informației"
+        }
+    ],
+
+    "workExperience" : [
+        { 
+            "companyName" : "OSF Global Services",
+            "industry" : "IT&C Software",
+            "domain" : "internship",
+            "timePeriod" : {
+                "start" : "iunie 2018",
+                "end" : "august 2018"
+            },
+            "city" :"București",
+            "responsabilities" : [
+                "reproducerea unei platforme web după un prototip în Photoshop",
+                "integrarea tehnologiilor folosite pentru realizarea proiectului propus",
+                "aprofundarea cunoștințelor legate de tehnologiile folosite: HTML, CSS, JavaScript și punerea acestora în aplicare"
+            ]
+        },
+        { 
+            "companyName" : "Ubisoft",
+            "industry" : "IT&C Software",
+            "domain" : "internship",
+            "timePeriod" : {
+                "start" : "iulie 2018",
+                "end" : "septembrie 2018"
+            },
+            "city" :"București",
+            "responsabilities" : [
+                "dezvoltarea componentei audio ți a efectelor speciale de sunet pentru un joc PVP multiplayer de tip shooter",
+                "debugging, ierarhizarea problemelor apărute în cod și rezolvarea acestora",
+                "game testing"
+            ]
+        }
+    ],
+
+    "languagesSpoken": [
+        { 
+            "name" : "Română",
+            "level" : [
+                { "writing" : "nativ" },
+                { "reading" : "nativ" },
+                { "speaking" : "nativ" } 
+            ]
+        },
+        { 
+            "name" : "Engleză",
+            "level" : [
+                { "writing" : "avansat" },
+                { "reading" : "avansat" },
+                { "speaking" : "avansat" } 
+            ]
+        },
+        { 
+            "name" : "Franceză",
+            "level" : [
+                { "writing" : "mediu" },
+                { "reading" : "mediu" },
+                { "speaking" : "mediu" } 
+            ]
+        },
+        { 
+            "name" : "Chineză",
+            "level" : [
+                { "writing" : "începător" },
+                { "reading" : "începător" },
+                { "speaking" : "intermediar" } 
+            ]
+        }
+    ]
+ }
