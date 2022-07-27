@@ -1,45 +1,21 @@
 .App {
-  /* variables */
-  /* --main-color: #282c34;
-  --second-color: #ececec; */
-
-  /* main layout */
-  text-align: center;
-  background-color: var(--main-color);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* General font */
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.cv_body {
-  text-align: center;
-  background-color: var(--main-color);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.profile_image {
-  height: 10rem;
-}
-
+/* Out of page button */
 .print-cv-btn {
-  position:absolute;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
   font-size: 20px;
   border: solid 2px white;
   border-radius: 30px;
   background-color: #282c34;
   color: white;
-  padding: 10px 30px;
-  margin-top: 450px;
+  padding: 10px 18px;
+  margin-top: 10px;
   transition: all 0.5s ease-in-out;
 }
 
@@ -48,4 +24,92 @@
   background-color: rgb(65, 71, 80);
   transform: scale(1.1);
   transition: all 0.5s ease-in-out;
+}
+
+/* ================================ Common elements ================================== */
+.section-title {
+  /* margin: 20px auto;
+  width: fit-content; */
+  padding: 5px 10px;
+  border: 2px solid;
+  text-transform: uppercase;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+/* ==================================== CV Body ======================================= */
+
+.cv-body {
+  text-align: center;
+  /* background-color: var(--main-color); */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+/* ==================================== MAIN PAGE ======================================= */
+.main-page {
+  background-color: var(--second-color);
+  flex-grow: 2;
+  padding: 30px 50px;
+
+  color: var(--main-color);
+}
+
+.main-page div {
+  /* margin: auto; */
+  margin-left: 5%;
+  margin-right: 5%;
+  /* max-width: 2000px; */
+}
+
+.name-title {
+  color: var(--main-color);
+}
+
+.main-module {
+  text-align: left;
+  font-size: 80%;
+  margin: 20px auto;
+}
+
+.main-module * {
+  margin: 0;
+}
+
+.main-module h4 {
+  margin: 0;
+  font-size: 120%;
+}
+
+.main-module > :nth-child(2) {
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+/* ==================================== SIDE MENU ======================================= */
+.side-menu {
+  background-color: var(--main-color);
+  flex-grow: 1;
+  min-width: 30%;
+  padding-top: var(--page-edge);
+
+  color: var(--second-color);
+}
+
+.profile_image {
+  height: 18rem;
+}
+
+.contact-info {
+  width: fit-content;
+  margin: auto;
+}
+
+.contact-info > div {
+  text-align: left;
+  font-size: 90%;
 }

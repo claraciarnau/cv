@@ -1,4 +1,8 @@
 :root {
+  /* Colors */
     --main-color: #282c34;
     --second-color: #ececec;
+
+  /* Distnaces */
+    --page-edge: 30px;
   }

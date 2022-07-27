@@ -14,23 +14,31 @@
         {
             "name" : "Facultatea de Automatică și Calculatoare",
             "timePeriod" : {
-                "start" : "octombrie 2015",
-                "end" : "prezent"
+                "start" : "Octombrie 2015",
+                "end" : "Prezent"
             },
-            "degree" : "studii de licență",
+            "degree" : "Studii de licență",
             "city" : "București",
-            "specialization" : "Calculatoare și tehnologia informației"
+            "specialization" : "Calculatoare și tehnologia informației",
+            "projects" : [
+                "Crearea unui magazin online folosind tehnologiile HTML5/CSS3, React pentru partea de frontend și NodeJS pentru partea de backend",
+                "Proiectarea și utilizarea unei baze de date în SQL pentru a ține evidența produselor și utilizatorilor unui magazin online",
+                "Crearea unui editor de poze simplist în C",
+                "Distingerea diferitelor paradigme de programare și folosirea celei mai potrivite paradigme pentru rezolvarea unei probleme",
+                "Crearea unei biblioteci dinamice în C care ofera o interfață pentru apelurile de sistem ce permit operații cu fișiere",
+                "Crearea unui server simplist în Android" 
+            ]
         }
     ],
 
     "workExperience" : [
         { 
             "companyName" : "OSF Global Services",
-            "industry" : "IT&C Software",
-            "domain" : "internship",
+            "domain" : "IT&C Software",
+            "type" : "internship",
             "timePeriod" : {
-                "start" : "iunie 2018",
-                "end" : "august 2018"
+                "start" : "Iunie 2018",
+                "end" : "August 2018"
             },
             "city" :"București",
             "responsabilities" : [
@@ -41,15 +49,15 @@
         },
         { 
             "companyName" : "Ubisoft",
-            "industry" : "IT&C Software",
-            "domain" : "internship",
+            "domain" : "IT&C Software",
+            "type" : "internship",
             "timePeriod" : {
-                "start" : "iulie 2018",
-                "end" : "septembrie 2018"
+                "start" : "Iulie 2018",
+                "end" : "Septembrie 2018"
             },
             "city" :"București",
             "responsabilities" : [
-                "dezvoltarea componentei audio ți a efectelor speciale de sunet pentru un joc PVP multiplayer de tip shooter",
+                "dezvoltarea componentei audio și a efectelor speciale de sunet pentru un joc PVP multiplayer de tip shooter",
                 "debugging, ierarhizarea problemelor apărute în cod și rezolvarea acestora",
                 "game testing"
             ]

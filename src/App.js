@@ -1,6 +1,7 @@
 // libraries
 import React, { useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
+import { AiFillPrinter } from "react-icons/ai";
 
 // styles
 import './style/Variables.css';
@@ -8,16 +9,6 @@ import './style/App.css';
 
 // modules
 import Cv from './modules/Cv.js';
-
-class ComponentToPrint extends React.Component {
-  render() {
-    return (
-      <div>
-        vgjvyhkgusilghruesiltghrueslthriesntgfrjiuoaslfuejdlhfueilwahbfurjkablfgehuial
-      </div>
-    );
-  }
-}
 
 function App() {
   const componentRef = useRef();
@@ -28,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Cv ref={componentRef}/>
-      <button className='print-cv-btn' onClick={handlePrint}>Print CV</button>
+      <button className='print-cv-btn' onClick={handlePrint}><AiFillPrinter /></button>
     </div>
   );
 }
